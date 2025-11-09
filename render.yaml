@@ -5,8 +5,4 @@ services:
     buildCommand: "pip install -r requirements.txt"
     startCommand: "python forwardtest_v8_triple_live_two_symbols1.py"
     plan: free
-    envVars:
-      - key: TELEGRAM_TOKEN
-        value: "8231709728:AAEx2Rmh19CiYeBTy-MNbqTvZrtRfptK26s"
-      - key: TELEGRAM_CHAT_ID
-        value: "7568508885"
+
